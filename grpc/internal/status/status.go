@@ -33,8 +33,8 @@ import (
 
 	"github.com/fgiudici/ttrpc-dep/grpc/codes"
 	spb "github.com/fgiudici/ttrpc-dep/rpc-status"
-	"github.com/golang/protobuf/proto"
-	"github.com/golang/protobuf/ptypes"
+	"github.com/gogo/protobuf/proto"
+	ptypes "github.com/gogo/protobuf/types"
 )
 
 // Status represents an RPC status code, message, and details.  It is immutable
