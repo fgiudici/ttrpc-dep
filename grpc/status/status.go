@@ -31,10 +31,10 @@ import (
 	"context"
 	"fmt"
 
-	spb "github.com/fgiudici/ttrpc-dep/rpc-status"
+	spb "github.com/gogo/googleapis/google/rpc"
 
-	"github.com/fgiudici/ttrpc-dep/grpc/codes"
 	"github.com/fgiudici/ttrpc-dep/grpc/internal/status"
+	"google.golang.org/grpc/codes"
 )
 
 // Status references google.golang.org/grpc/internal/status. It represents an

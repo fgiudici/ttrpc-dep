@@ -31,8 +31,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/fgiudici/ttrpc-dep/grpc/codes"
-	spb "github.com/fgiudici/ttrpc-dep/rpc-status"
+	"google.golang.org/grpc/codes"
+	spb "github.com/gogo/googleapis/google/rpc"
 	"github.com/gogo/protobuf/proto"
 	ptypes "github.com/gogo/protobuf/types"
 )
